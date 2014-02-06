@@ -1,0 +1,4 @@
+#!/bin/sh
+# FIXME: this takes for granted that we already are in the right cwd
+cd /home/grota/Projects/devops/runinit_tests
+exec sv/rand_with_stderr/pseudo_daemon.sh
