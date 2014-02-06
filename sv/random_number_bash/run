@@ -1,0 +1,4 @@
+#!/bin/sh
+# FIXME: this takes for granted that we already are in the right cwd
+cd /home/grota/Projects/devops/runinit_tests
+exec sv/random_number_bash/bash_loop.sh
